@@ -1,0 +1,51 @@
+/* style.css */
+
+/* Apply pink border to all divs */
+div {
+  border: 3px solid pink;
+  margin: 5px; /* Set outer margin to 5px */
+  background-color: #7CB9E8; /* Set background color of all divs to blue */
+}
+
+/* Apply yellow background to the outer div using id selector */
+#outer-div {
+  background-color: yellow;
+}
+
+/* Apply gray background and internal indentation to div 3, 4, 5 using class selector */
+.div-345 {
+  background-color: gray;
+  padding: 5px; /* Internal indentation of 5px */
+}
+
+/* Adjust width of div 3, 4, 5 in the specified ratio */
+.div-3 {
+  width: 25%;
+  height: 160px;
+}
+
+.div-4 {
+  width: 55%;
+  height: 160px;
+}
+
+.div-5 {
+  width: 13%;
+  height: 160px;
+}
+
+/* Align div 3, 4, 5 in one row using float and clear */
+.div-3, .div-4, .div-5 {
+  float: left;
+  clear: none;
+}
+
+/* Clear float after the last div to avoid layout issues */
+.clear {
+  clear: both;
+}
+
+.pikcha {
+  width: 1165px
+}
+
